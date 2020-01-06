@@ -1,6 +1,6 @@
 
 body {
-  background-color: #f9fdfe;
+  background-color: #e2e9ea;
 }
 
 .App {
@@ -21,12 +21,12 @@ body {
 }
 
 .container-two {
+    position: absolute;
     /* border: 1px solid red; */
     border-radius: 47px;
     height: 90vh;
     width: 90vw;
-    background-color:#f9fdfe;
-    top: 3vw;
-    -webkit-box-shadow: -3px -3px 18px 10px #FFFFFF;
-    box-shadow: -11px -11px 12px 12px #FFFFFF;
+    background-color:#e2e9ea;
+    -webkit-box-shadow: -11px -11px 14px -1px #FFFFFF;
+    box-shadow: -11px -11px 14px -1px #FFFFFF;
 }

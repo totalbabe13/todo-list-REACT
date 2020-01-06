@@ -1,5 +1,16 @@
 .AddButton {
-  height: 50px;
-  width: 50px;
+  position: relative;
+  height: 2em;
+  width: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.8em;
+  background-color: white;
+  border-radius: 20px;
   border: 1px solid;
+}
+.plus{
+    position: relative;
+    margin-top: 0.4em;
+    margin-left: .7em;
 }

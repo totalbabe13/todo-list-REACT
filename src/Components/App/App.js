@@ -7,6 +7,7 @@ function App() {
     <div className="App">
       <div className="conatiner-one ">
         <div className="container-two">
+          <AddButton />
         </div>
       </div>
 

@@ -9,7 +9,7 @@ class AddButton extends React.Component {
   render(){
     return (
        <div className="AddButton">
-         <p>add button</p>
+         <p className="plus">+</p>
        </div>
     );
   }
