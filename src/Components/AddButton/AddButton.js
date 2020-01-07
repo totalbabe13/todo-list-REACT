@@ -11,7 +11,7 @@ class AddButton extends React.Component {
     return (
        <div className="AddButton">
          <p className="plus">+</p>
-         <FormModal />
+         <FormModal handleUpdate={this.props.handleUpdate} />
        </div>
     );
   }

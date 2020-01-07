@@ -48,12 +48,12 @@
     grid-column-end: 3;
 }
 .save-button {
-  border: 1px solid green;
+  border: 3px solid green;
   grid-column-start: 1;
   grid-column-end: 2;
 }
 .cancel-button{
-  border: 1px solid red;
+  border: 3px solid red;
   grid-column-start: 2;
   grid-column-end: 3;
 }
