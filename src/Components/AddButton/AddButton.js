@@ -1,5 +1,6 @@
 import React from 'react';
 import './AddButton.css';
+import FormModal from '../FormModal/FormModal';
 
 class AddButton extends React.Component {
   constructor(props){
@@ -10,6 +11,7 @@ class AddButton extends React.Component {
     return (
        <div className="AddButton">
          <p className="plus">+</p>
+         <FormModal />
        </div>
     );
   }

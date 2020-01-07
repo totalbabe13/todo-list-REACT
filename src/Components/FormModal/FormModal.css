@@ -1,0 +1,59 @@
+.modal-conatiner {
+    position: relative;
+    border: 2px solid;
+    width: 102vw;
+    height: 102vh;
+    left: -49vw;
+    top: -10vh;
+    background-color: #65a26080;
+}
+
+.form-container {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 18vh;
+  width: 31em;
+  height: 31em;
+  background-color: white;
+  border-radius: 14px;
+  /* border: 1px solid; */
+}
+
+.form-input {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 2.5em;
+    width: 25em;
+    height: 26em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    border: 5px solid;
+}
+.title-field {
+    border: 1px solid;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.description-field {
+    border: 1px solid;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.date-field {
+    border: 1px solid;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.save-button {
+  border: 1px solid green;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+.cancel-button{
+  border: 1px solid red;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
